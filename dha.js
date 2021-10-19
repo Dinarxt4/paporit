@@ -82,7 +82,7 @@ let setting = JSON.parse(fs.readFileSync('./setting.json'))
 owner = setting.owner
 gamewaktu = setting.gamewaktu
 petik = '```'
-fake = 'CREATOR BOT\©KurrXd'//GANTI NAMA KAMU BEP
+fake = 'CREATOR BOT\©DinarXT'//GANTI NAMA KAMU BEP
 ban =[]
 
 // Database
@@ -846,10 +846,10 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 ❏ LIMIT : *${isPremium ? 'Unlimited' : `${gcount}`}*
 
 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
-❏ NAMA : *Sherlynn-Botz*
-❏ API : @6281220670449
-❏ OWNER : *©KurrXd*
-❏ API : *@6281220670449*
+❏ NAMA : *Xontol-Bot*
+❏ API : @6281333389713
+❏ OWNER : *©DinarXt*
+❏ API : *@6281333389713*
 ❏ AKTIF : *${runtime(process.uptime())}*
 ❏ BATERAI : *${baterai}%*
 ❏ PREIFIX : *『${prefix}』*
@@ -1093,14 +1093,14 @@ Makernya banyak tu kalian masukan aja namanya sendiri
 *き⃟🦈 ${prefix}babi*
 *き⃟🦈 ${prefix}cekganteng*
 *き⃟🦈 ${prefix}cekcantik*
-©𝑪𝒓𝒆𝒂𝒕𝒐𝒓 ©kurrtod`
+©𝑪𝒓𝒆𝒂𝒕𝒐𝒓 ©DinarXT`
                buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: '𝗔𝗟𝗟 𝗠𝗘𝗡𝗨'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: '𝗥𝗨𝗟𝗘𝗦'},type:1},{buttonId:`${prefix}store`,buttonText:{displayText:'SIMPLE BUTTON MENU'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '\`\`\`MAU BELI SC INI HUBUNGIN KURRXD WA 6281220670449\`\`\`', imageMessage: imageMsg,
+               footerText: '\`\`\`MAU BELI SC INI HUBUNGIN DinarXT WA 6281333389713\`\`\`', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1687,7 +1687,7 @@ case 'bayar':
 gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
 teksnya = ` *「PAYMENT」*
 • GOPAY : scan diatas
-• DANA : 081220670449
+• DANA : 081333389713
 • OVO : scan diatas
 • QRISS DI ATAS 
 ━━━━━━━━━━━━━━━━━━━━`
